@@ -3,7 +3,6 @@
   height: 90vh;
   background: #fce3fe;
   padding-top: 80px;
-  /* margin-bottom: 30px; */
 }
 .login-container {
   width: 500px;
@@ -24,7 +23,7 @@
 .login-fields input {
   height: 60px;
   width: 100%;
-  /* padding-left: 10px; */
+
   border: 1px solid #c9c9c9;
   outline: none;
   color: #5c5c5c;
