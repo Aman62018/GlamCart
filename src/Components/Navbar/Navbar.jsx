@@ -21,51 +21,7 @@ const Navbar = () => {
         <img src={logo} alt="Cart" />
         <p>SHOPPER</p>
       </div>
-      {/* <ul className="nav-menu">
-        <li
-          onClick={() => {
-            setMenu("shop");
-          }}
-        >
-          <Link style={{ textDecoration: "none", color: "#626262" }} to="/">
-            Shop
-          </Link>
-          {menu === "shop" ? <hr /> : <></>}
-        </li>
-        <li
-          onClick={() => {
-            setMenu("mens");
-          }}
-        >
-          <Link style={{ textDecoration: "none", color: "#626262" }} to="/mens">
-            Men
-          </Link>
-          {menu === "mens" ? <hr /> : <></>}
-        </li>
-        <li
-          onClick={() => {
-            setMenu("womens");
-          }}
-        >
-          <Link
-            style={{ textDecoration: "none", color: "#626262" }}
-            to="/womens"
-          >
-            Women
-          </Link>
-          {menu === "womens" ? <hr /> : <></>}
-        </li>
-        <li
-          onClick={() => {
-            setMenu("kids");
-          }}
-        >
-          <Link style={{ textDecoration: "none", color: "#626262" }} to="/kids">
-            Kids
-          </Link>
-          {menu === "kids" ? <hr /> : <></>}
-        </li>
-      </ul> */}
+     
 
       <ul className="nav-menu">
         {navItems.map((item) => (
